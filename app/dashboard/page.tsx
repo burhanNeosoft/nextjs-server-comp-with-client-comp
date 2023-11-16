@@ -6,12 +6,16 @@ const Dashboard = () => {
 
   useEffect(() => {
     //setName("John Doe");
-    textRef.current.style.background = "red";
+    if (textRef) {
+      textRef.current.style.background = "red";
+    }
   }, []);
 
   const changeName = () => {
     setName("John Doe");
-    textRef.current.style.background = "green";
+    if (textRef) {
+      textRef.current.style.background = "green";
+    }
   };
   return (
     <>

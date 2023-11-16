@@ -1,7 +1,11 @@
 "use client";
 const ViewUser = ({ user }) => {
-  const handleClick = () => {
-    console.log("User", user);
+  var i = 0;
+  //var obj = {};
+  const handleClick = (e) => {
+    //e.preventDefault();
+    i += 1;
+    console.log("User");
   };
 
   //console.log("Userrrrrrrrrrrrrrrr");
