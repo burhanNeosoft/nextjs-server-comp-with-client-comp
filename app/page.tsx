@@ -14,6 +14,9 @@ export default function Home() {
         <li className="shadow-xl">
           <Link href={"/server-in-client"}>Server-in-Client</Link>
         </li>
+        <li className="shadow-xl">
+          <Link href={"/posts"}>Posts</Link>
+        </li>
       </ul>
     </main>
   );
